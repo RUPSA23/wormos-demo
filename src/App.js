@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/navbar/navbar';
 import Enlarged from './Components/Enlarged/Enlarged'
 import Nestle from './Components/Nestle/Nestle'
-import Toolkit from './Components/Toolkit/Toolkit';
+// import Toolkit from './Components/Toolkit/Toolkit';
 import Creativity from './Components/Creativity/Creativity';
 import Support from './Components/Support/Support';
 import Pricing from './Components/Pricing/Pricing';
