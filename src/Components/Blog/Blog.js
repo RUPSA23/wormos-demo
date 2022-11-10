@@ -8,7 +8,7 @@ const Blog = () => {
       <div className="flex gap-20 m-10">
         <div className="card card-side">
           <figure>
-            <img src="images/blog2.png" alt="Movie" />
+            <img src="images/blog2.png" alt="Blog1" className="rounded-lg"/>
           </figure>
           <div className="card-body">
             <h2 className="card-title">
@@ -20,9 +20,9 @@ const Blog = () => {
             </p>
           </div>
         </div>
-        <div className="card card-side">
+        <div className="card card-side ">
           <figure>
-            <img src="images/blog1-370x470.png" alt="Movie" />
+            <img src="images/blog1-370x470.png" alt="Blog2" className="rounded-lg"/>
           </figure>
           <div className="card-body">
             <h2 className="card-title">

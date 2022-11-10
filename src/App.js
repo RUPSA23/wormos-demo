@@ -13,6 +13,8 @@ import Blog from './Components/Blog/Blog';
 import Apps from './Components/Apps/Apps';
 import HowItWorks from './Components/HowItWorks/HowItWorks';
 import Life from './Components/Life/Life';
+import LearnMore from './Components/LearnMore/LearnMore';
+import GlobalBuisness from './Components/GlobalBuisness/GlobalBuisness';
 
 
 function App() {
@@ -21,9 +23,11 @@ function App() {
      <Navbar/>
      <Enlarged/>
      <Nestle/>
+     <GlobalBuisness/>
      {/* <Toolkit/> */}
      <Creativity/>
      <Support/>
+     <LearnMore/>
      <Pricing/>
      <Features/>
      <HowItWorks/>
