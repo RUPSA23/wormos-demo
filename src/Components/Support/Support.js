@@ -9,7 +9,7 @@ const Support = () => {
           className="max-w-md rounded-lg"
         />
         <div>
-          <div className="badge badge-accent badge-outline">Support</div>
+          <div className="badge badge-accent badge-outline mb-4 p-4">Support</div>
           <h1 className="text-5xl font-bold">Customized </h1>
           <h1 className="text-5xl font-bold">Environment</h1>
           <p className="py-6">

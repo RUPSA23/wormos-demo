@@ -13,7 +13,7 @@ const HowItWorks = () => {
           />
         </div>
         <div>
-          <div className="badge badge-accent badge-outline w-40 mb-10">
+          <div className="badge badge-accent badge-outline w-40 mb-10 p-4">
             How it Works
           </div>
           <h1 className="text-5xl font-bold">

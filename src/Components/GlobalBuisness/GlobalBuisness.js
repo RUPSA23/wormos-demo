@@ -19,7 +19,7 @@ const GlobalBuisness = () => {
         </div>
       </div>
 
-      <div className="text-left ml-20 pl-20">
+      <div className="text-left ml-20 pl-20 text-xl">
         <p>Get your Global Business Identity.</p>
       </div>
     </div>

@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './Components/navbar/navbar';
 import Enlarged from './Components/Enlarged/Enlarged'
 import Nestle from './Components/Nestle/Nestle'
-// import Toolkit from './Components/Toolkit/Toolkit';
+import Toolkit from './Components/Toolkit/Toolkit';
 import Creativity from './Components/Creativity/Creativity';
 import Support from './Components/Support/Support';
 import Pricing from './Components/Pricing/Pricing';
@@ -14,6 +14,7 @@ import HowItWorks from './Components/HowItWorks/HowItWorks';
 import Life from './Components/Life/Life';
 import LearnMore from './Components/LearnMore/LearnMore';
 import GlobalBuisness from './Components/GlobalBuisness/GlobalBuisness';
+import Faq from './Components/Faq/faq';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
      <Enlarged/>
      <Nestle/>
      <GlobalBuisness/>
-     {/* <Toolkit/> */}
+     <Toolkit/>
      <Creativity/>
      <Support/>
      <LearnMore/>
@@ -31,6 +32,7 @@ function App() {
      <Features/>
      <HowItWorks/>
      <Blog/>
+     <Faq/>
      <Apps/>
      <Life/>
      <Footer/>

@@ -10,7 +10,7 @@ const Features = () => {
           className="max-w-sm rounded-lg ml-20"
         />
         <div className="mr-20">
-        <div className="badge badge-accent badge-outline">Features</div>
+        <div className="badge badge-accent badge-outline p-4 mb-4">Features</div>
           <h1 className="text-5xl font-bold">EMI Option </h1>
           <h1 className="text-5xl font-bold">Available Now!</h1>
           <p className="py-6">
