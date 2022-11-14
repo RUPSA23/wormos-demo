@@ -4,7 +4,7 @@ const Nestle = () => {
   return (
     <div>
       <p className="text-1xl flex justify-start text-gray-400 mt-5">These world-class Coporate are already using Wormos</p>
-      <div className="flex p-10 ">
+      <div className="flex p-10 flex-col lg:flex-row md:flex-row">
       <div className="mr-20 pr-20">
       <img
             src="https://wormos.in/wp-content/uploads/2022/10/markforged.png"

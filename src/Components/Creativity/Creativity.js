@@ -4,7 +4,7 @@ const Creativity = () => {
   return (
     <div>
       <div className="hero min-h-screen bg-gradient-to-r from-green-100">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex-col lg:flex-row-reverse md:flex-row-reverse">
           <img
             src="https://wormos.in/wp-content/uploads/2021/11/Programming-amico.png"
             className="max-w-sm rounded-lg"

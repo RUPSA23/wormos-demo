@@ -23,8 +23,8 @@ function App() {
      <Navbar/>
      <Enlarged/>
      <Nestle/>
-     <GlobalBuisness/>
      <Toolkit/>
+     <GlobalBuisness/>
      <Creativity/>
      <Support/>
      <LearnMore/>

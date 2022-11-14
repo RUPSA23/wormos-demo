@@ -2,7 +2,7 @@ import React from "react";
 
 const Apps = () => {
   return (
-    <div className="flex m-10 gap-2 pt-10">
+    <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-4 m-10 gap-2 pt-10">
       <div className="card w-96 bg-base-100">
         <figure className="px-10 pt-10">
           <img

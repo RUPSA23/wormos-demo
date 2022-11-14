@@ -3,7 +3,7 @@ import React from "react";
 
 const faq = () => {
   return (
-    <div className="flex justify-around">
+    <div className="flex flex-col lg:flex-row md:flex-row justify-around">
       <div className="mt-10">
         <div className="badge badge-primary badge-outline mb-4 p-4">
           Support

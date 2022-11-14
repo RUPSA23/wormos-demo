@@ -3,8 +3,8 @@ import React from "react";
 const HowItWorks = () => {
   return (
     <div className="mb-20">
-      <div className="flex">
-        <div>
+      <div className="flex flex-col lg:flex-row md:flex-row">
+        <div className="">
           <img
             src="https://wormos.in/wp-content/uploads/2021/11/rocket.png"
             alt=""
@@ -21,6 +21,7 @@ const HowItWorks = () => {
           </h1>
         </div>
       </div>
+
       <ul className="steps">
   <li className="step step-success text-sm">Share you Concept and Requirments</li>
   <li className="step step-success text-sm">We'll work on it and share it</li>

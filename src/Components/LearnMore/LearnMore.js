@@ -2,7 +2,7 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <div className="flex justify-center my-10">
+    <div className="flex flex-col lg:flex-row md:flex-row justify-center my-10">
       <div className="flex m-5 pr-5">
         <div>
           <img
@@ -18,7 +18,7 @@ const LearnMore = () => {
           <h2 className="text-orange-300 font-medium">Learn More</h2>
         </div>
       </div>
-      <div className="flex m-5 pl-5 pr-5">
+      <div className="flex m-5 pr-5">
         <div>
           <img
             src="https://img.freepik.com/free-vector/brain-cartoon-vector-icon-illustration-education-object-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3565.jpg?w=2000"

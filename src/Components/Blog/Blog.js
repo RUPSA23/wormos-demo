@@ -5,7 +5,7 @@ const Blog = () => {
     <div>
       <div className="badge badge-primary badge-outline mb-4 p-4">Office Blog</div>
       <h1 className="text-5xl font-bold">Latest Posts</h1>
-      <div className="flex gap-20 m-10">
+      <div className="flex flex-col lg:flex-row md:flex-row gap-20 m-10">
         <div className="card card-side">
           <figure>
             <img src="images/blog2.png" alt="Blog1" className="rounded-lg"/>

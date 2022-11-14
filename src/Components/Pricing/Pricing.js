@@ -3,7 +3,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <div className="mt-20">
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row md:flex-row">
         <div className="mr-20 ml-20 ">
           <img
             src="https://wormos.in/wp-content/uploads/2022/10/Revenue-bro.png"
@@ -21,8 +21,8 @@ const Pricing = () => {
         </div>
       </div>
 
-      <div className="flex ml-10 mt-20">
-        <div className="card w-96 bg-base-100 shadow-xl mr-4">
+      <div className="flex flex-col lg:flex-row md:flex-row ml-10 mt-20">
+        <div className="card w-96 bg-base-100 shadow-xl mr-4 mb-5">
           <div className="card-body items-center text-center ">
             <h6 className="text-1xl font-bold text-orange-400">Simple Plan</h6>
             <h2 className="card-title">₹499 /month</h2>
@@ -66,7 +66,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl mr-4">
+        <div className="card w-96 bg-base-100 shadow-xl mr-4 mb-5">
           <div className="card-body items-center text-center">
             <h6 className="text-1xl font-bold text-blue-800">Standard Plan</h6>
             <h2 className="card-title">₹999 /month</h2>
@@ -112,7 +112,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl mb-5">
           <div className="card-body items-center text-center">
             <h6 className="text-1xl font-bold text-green-400">Premium Plan</h6>
             <h2 className="card-title">₹1499 /month</h2>
