@@ -2,13 +2,15 @@ import React from "react";
 
 const Toolkit = () => {
   return (
-    <div className="hero min-h-screen flex flex-col lg:flex-row md:flex-row m-5">
+    <div className="hero min-h-screen flex flex-col lg:flex-row justify-around md:flex-row  m-5">
      <div>
         <p className="py-6 text-2xl font-semibold text-left text-green-800">
           Complete Design Toolkit – huge collection 
-           of elements, rich customization options. 
+           of elements,
+           <br /> rich customization options. 
            <br /> Flexible layouts, and instant results! 
-           <br />Choose a pre-built header or create a custom layout that perfectly
+           <br />Choose a pre-built header or create a
+           <br /> custom layout that perfectly
           suits your needs.
         </p>
       </div>
@@ -18,8 +20,8 @@ const Toolkit = () => {
           <img
             src="https://ak.picdn.net/shutterstock/videos/1091005935/thumb/6.jpg?ip=x480"
             alt="drwing-brash"
-            width="190"
-            height="200"
+            width="150"
+            height="150"
             className="rounded-full"
           />
            <h1 >Smooth 
@@ -32,7 +34,7 @@ const Toolkit = () => {
           <img
             src="https://img.freepik.com/free-vector/cloud-computing-security-abstract-concept-illustration_335657-2105.jpg"
             alt=""
-            width="190"
+            width="150"
             height="150"
             className="rounded-full"
           />
@@ -44,8 +46,8 @@ const Toolkit = () => {
           <img
             src="https://ak.picdn.net/shutterstock/videos/1048894123/thumb/1.jpg?ip=x480"
             alt=""
-            width="250"
-            height="250"
+            width="150"
+            height="150"
             className="rounded-full"
           />
           <h1>Global
@@ -56,8 +58,8 @@ const Toolkit = () => {
           <img
             src="https://w0.peakpx.com/wallpaper/605/368/HD-wallpaper-small-but-perfectly-formed-cute-comic-smiley-face-smiley-face-smile-cartoon-happy.jpg"
             alt="smile"
-            width="250"
-            height="250"
+            width="150"
+            height="150"
             className="rounded-full"
           />
           <h1>
@@ -69,10 +71,10 @@ const Toolkit = () => {
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 font-semibold">
           <img
-            src="https://cdn1.iconfinder.com/data/icons/essential-21/128/Hide-512.png"
+            src="https://static.vecteezy.com/system/resources/previews/005/202/744/original/hide-icon-with-eye-hidden-content-vector.jpg"
             alt=""
-            width="180"
-            height="200"
+            width="150"
+            height="150"
             className="rounded-full"
           />
           <h1>
@@ -84,10 +86,10 @@ const Toolkit = () => {
 
         <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 font-semibold">
           <img
-            src="https://img.freepik.com/free-vector/illustration-headphones-icon_53876-5571.jpg?w=360"
+            src="https://media.istockphoto.com/id/912248658/vector/headphones-with-a-microphone-vector-icon.jpg?s=612x612&w=0&k=20&c=ruMAQVudIpormRI-9NFHS1-UXPSWvZjuPjpO1nXLIyc="
             alt=""
-            width="250"
-            height="250"
+            width="150"
+            height="150"
             className="rounded-full"
           />
           <h1>Dedicated 

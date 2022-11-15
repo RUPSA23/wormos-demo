@@ -4,7 +4,7 @@ const HowItWorks = () => {
   return (
     <div className="mb-20">
       <div className="flex flex-col lg:flex-row md:flex-row">
-        <div className="">
+        <div className="invisible lg:visible md:visible">
           <img
             src="https://wormos.in/wp-content/uploads/2021/11/rocket.png"
             alt=""
@@ -22,7 +22,7 @@ const HowItWorks = () => {
         </div>
       </div>
 
-      <ul className="steps">
+  <ul className="steps">
   <li className="step step-success text-sm">Share you Concept and Requirments</li>
   <li className="step step-success text-sm">We'll work on it and share it</li>
   <li className="step step-success text-sm">After Confirmation, We'll Launch you Site</li>
