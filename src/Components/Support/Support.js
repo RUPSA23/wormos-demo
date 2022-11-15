@@ -2,7 +2,7 @@ import React from "react";
 
 const Support = () => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero min-h-screen dark:bg-white">
       <div className="hero-content flex-col lg:flex-row md:flex-row justify-around">
         <img
           src="https://wormos.in/wp-content/uploads/2021/11/6308-2048x1280.jpg"
@@ -20,7 +20,7 @@ const Support = () => {
             into Customers..
           </p>
 
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card w-96 bg-base-100 shadow-xl dark:bg-white">
             <div className="card-body">
             <div className="flex">
             <div className="avatar">

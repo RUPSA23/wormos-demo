@@ -2,7 +2,7 @@ import React from "react";
 
 const Enlarged = () => {
   return (
-    <div className="hero min-h-screen bg-gradient-to-r from-sky-100">
+    <div className="hero min-h-screen bg-gradient-to-r from-sky-100 dark:bg-white">
       <div className="hero-content flex-col lg:flex-row-reverse md:flex-row-reverse">
       <div class="">
       <img

@@ -2,7 +2,7 @@ import React from "react";
 
 const Toolkit = () => {
   return (
-    <div className="hero min-h-screen flex flex-col lg:flex-row justify-around md:flex-row  m-5">
+    <div className="hero min-h-screen flex flex-col lg:flex-row justify-around md:flex-row m-5  dark:bg-white">
      <div>
         <p className="py-6 text-2xl font-semibold text-left text-green-800">
           Complete Design Toolkit – huge collection 

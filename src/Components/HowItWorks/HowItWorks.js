@@ -2,7 +2,7 @@ import React from "react";
 
 const HowItWorks = () => {
   return (
-    <div className="mb-20">
+    <div className="mb-20 dark:bg-white">
       <div className="flex flex-col lg:flex-row md:flex-row">
         <div className="invisible lg:visible md:visible">
           <img

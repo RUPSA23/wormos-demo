@@ -2,7 +2,7 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <div className="flex flex-col lg:flex-row md:flex-row justify-center my-10">
+    <div className="flex flex-col lg:flex-row md:flex-row justify-center my-10 dark:bg-white">
       <div className="flex m-5 pr-5">
         <div>
           <img

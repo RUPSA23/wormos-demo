@@ -19,7 +19,7 @@ import Faq from './Components/Faq/faq';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App dark:bg-white">
      <Navbar/>
      <Enlarged/>
      <Nestle/>

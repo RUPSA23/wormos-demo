@@ -3,7 +3,7 @@ import React from "react";
 const Features = () => {
   return (
     <div >
-<div className="hero min-h-screen ">
+<div className="hero min-h-screen dark:bg-white">
       <div className="hero-content flex flex-col lg:flex-row-reverse md:flex-row-reverse  justify-between">
       <div>
       <img

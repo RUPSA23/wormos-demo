@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="dark:bg-white">
       <div className="badge badge-primary badge-outline mb-4 p-4">Office Blog</div>
       <h1 className="text-5xl font-bold">Latest Posts</h1>
       <div className="flex flex-col lg:flex-row md:flex-row gap-20 m-10">
