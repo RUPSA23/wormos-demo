@@ -2,7 +2,7 @@ import React from "react";
 
 const Toolkit = () => {
   return (
-    <div className="hero min-h-screen flex flex-col lg:flex-row justify-around md:flex-row m-5  dark:bg-white">
+    <div className="hero min-h-screen flex flex-col lg:flex-row justify-around md:flex-row m-5 ">
      <div>
         <p className="py-6 text-2xl font-semibold text-left text-green-800">
           Complete Design Toolkit – huge collection 
@@ -24,7 +24,7 @@ const Toolkit = () => {
             height="150"
             className="rounded-full"
           />
-           <h1 >Smooth 
+           <h1 className="dark:text-black">Smooth 
           <br />
           User Experience</h1>
         </div>
@@ -38,7 +38,7 @@ const Toolkit = () => {
             height="150"
             className="rounded-full"
           />
-          <h1>Secure
+          <h1 className="dark:text-black">Secure
           <br /> Servers</h1>
         </div>
 
@@ -50,7 +50,7 @@ const Toolkit = () => {
             height="150"
             className="rounded-full"
           />
-          <h1>Global
+          <h1 className="dark:text-black">Global
           <br /> Identity</h1>
         </div>
 
@@ -62,7 +62,7 @@ const Toolkit = () => {
             height="150"
             className="rounded-full"
           />
-          <h1>
+          <h1 className="dark:text-black">
             Personalized
             <br />
             Solutions
@@ -77,7 +77,7 @@ const Toolkit = () => {
             height="150"
             className="rounded-full"
           />
-          <h1>
+          <h1 className="dark:text-black">
             Risk Analysis
             <br />
             And Report
@@ -92,7 +92,7 @@ const Toolkit = () => {
             height="150"
             className="rounded-full"
           />
-          <h1>Dedicated 
+          <h1 className="dark:text-black">Dedicated 
           <br />
           Team</h1>
         </div>

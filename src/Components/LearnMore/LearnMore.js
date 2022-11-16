@@ -14,8 +14,8 @@ const LearnMore = () => {
           />
         </div>
         <div>
-          <h2 className="mb-5 mt-4 font-bold text-lg">Personalized Experience</h2>
-          <h2 className="text-orange-300 font-medium">Learn More</h2>
+          <h2 className="mb-5 mt-4 font-bold text-lg dark:text-black">Personalized Experience</h2>
+          <h2 className="text-orange-300 font-medium dark:text-black">Learn More</h2>
         </div>
       </div>
       <div className="flex m-5 pr-5">
@@ -29,8 +29,8 @@ const LearnMore = () => {
           />
         </div>
         <div>
-          <h2 className="mb-5 mt-4 font-bold text-lg">Innovate Approaches</h2>
-          <h2 className="text-blue-500 font-medium">Learn More</h2>
+          <h2 className="mb-5 mt-4 font-bold text-lg dark:text-black">Innovate Approaches</h2>
+          <h2 className="text-blue-500 font-medium dark:text-black">Learn More</h2>
         </div>
       </div>
 
@@ -45,8 +45,8 @@ const LearnMore = () => {
           />
         </div>
         <div>
-          <h2 className="mb-5 mt-4 font-bold text-lg">Budget Friendly</h2>
-          <h2 className="text-purple-400 font-medium">Learn More</h2>
+          <h2 className="mb-5 mt-4 font-bold text-lg dark:text-black">Budget Friendly</h2>
+          <h2 className="text-purple-400 font-medium dark:text-black">Learn More</h2>
         </div>
       </div>
     </div>

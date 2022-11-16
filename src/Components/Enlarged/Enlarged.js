@@ -13,7 +13,7 @@ const Enlarged = () => {
         />
       </div>
         
-        <div className="m-auto lg:mr-20 md:m-auto">
+        <div className="m-auto lg:mr-20 md:m-auto dark:text-black">
           <h1 className="text-5xl font-bold">Let's</h1>
           <h1 className="text-5xl font-bold">Enlarge.</h1>
           <p className="p-5 m-8">

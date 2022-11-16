@@ -11,9 +11,9 @@ const Support = () => {
         />
         <div>
           <div className="badge badge-accent badge-outline mb-4 p-4">Support</div>
-          <h1 className="text-5xl font-bold">Customized </h1>
-          <h1 className="text-5xl font-bold">Environment</h1>
-          <p className="m-6">
+          <h1 className="text-5xl font-bold dark:text-black">Customized </h1>
+          <h1 className="text-5xl font-bold dark:text-black">Environment</h1>
+          <p className="m-6 dark:text-black">
             We build great and solid product experiences 
             <br />
             that convert our Leads
@@ -29,7 +29,7 @@ const Support = () => {
                 </div>
               </div>
               <div>
-              <p>
+              <p className="dark:text-black">
                 Hammad : I Prefer Wormos as my First choice whenever I want to
                 innovate something in my Business
               </p>

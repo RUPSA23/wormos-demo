@@ -2,9 +2,9 @@ import React from 'react';
 
 const Life = () => {
     return (
-        <div className="flex flex-col lg:flex-row md:flex-row justify-between m-20 px-10 shadow-2xl dark:bg-white">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between m-20 px-10 shadow-2xl ">
             <div className="flex items-center">
-                <h1 className="text-4xl font-bold text-left mb-5">Bring your ideas life 
+                <h1 className="text-4xl font-bold text-left mb-5 dark:text-black">Bring your ideas life 
                <br /> and build your site visually.</h1>
             </div>
             <div className="mb-5 mt-5">

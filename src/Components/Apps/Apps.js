@@ -2,7 +2,7 @@ import React from "react";
 
 const Apps = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-4 m-10 gap-2 pt-10 dark:bg-white">
+    <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-4 m-10 gap-2 pt-10 ">
       <div className="card w-96 bg-base-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 dark:bg-white">
         <figure className="px-10 pt-10">
           <img
@@ -13,7 +13,7 @@ const Apps = () => {
             height="90"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center text-center dark:text-black">
           <h2 className="card-title">Open Source</h2>
           <p>Github Repo</p>
         </div>
@@ -29,9 +29,9 @@ const Apps = () => {
             height="90"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center text-center dark:text-black">
           <h2 className="card-title">Follow Us on Twitter</h2>
-          <p className="text-gray-400">Latest news and updates</p>
+          <p className="text-gray-400 dark:text-black">Latest news and updates</p>
         </div>
       </div>
 
@@ -45,9 +45,9 @@ const Apps = () => {
             height="90"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center text-center dark:text-black">
           <h2 className="card-title">Visit App Store</h2>
-          <p className="text-gray-400">Download for IOS Devices</p>
+          <p className="text-gray-400 dark:text-black">Download for IOS Devices</p>
         </div>
       </div>
 
@@ -61,9 +61,9 @@ const Apps = () => {
             height="90"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center text-center dark:text-black">
           <h2 className="card-title">Telegram Channel</h2>
-          <p className="text-gray-400">Join the Community</p>
+          <p className="text-gray-400 dark:text-black">Join the Community</p>
         </div>
       </div>
     </div>

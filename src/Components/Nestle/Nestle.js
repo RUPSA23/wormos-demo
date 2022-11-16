@@ -2,8 +2,8 @@ import React from "react";
 
 const Nestle = () => {
   return (
-    <div className="dark:bg-white">
-      <p className="text-1xl flex justify-start text-gray-400 mt-5">These world-class Coporate are already using Wormos</p>
+    <div className="">
+      <p className="text-1xl flex justify-start text-gray-400 mt-5 dark:text-black">These world-class Coporate are already using Wormos</p>
       <div className="flex p-10 flex-col lg:flex-row md:flex-row ">
       <div className="mr-20 pr-20">
       <img

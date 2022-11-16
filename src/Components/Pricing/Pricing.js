@@ -11,7 +11,7 @@ const Pricing = () => {
             width="290"
           />
         </div>
-        <div className="ml-15 mt-10">
+        <div className="ml-15 mt-10 dark:text-black">
           <h1 className="text-5xl font-bold mb-8">
             Simple pricing foreveryone.
           </h1>
@@ -24,13 +24,13 @@ const Pricing = () => {
       <div className="flex flex-col lg:flex-row md:flex-row ml-10 mt-20 ">
         <div className="card w-96 bg-base-100 shadow-xl mr-4 mb-5 dark:bg-white">
           <div className="card-body items-center text-center ">
-            <h6 className="text-1xl font-bold text-orange-400">Simple Plan</h6>
-            <h2 className="card-title">₹499 /month</h2>
+            <h6 className="text-1xl font-bold text-orange-400 dark:text-black">Simple Plan</h6>
+            <h2 className="card-title dark:text-black">₹499 /month</h2>
             <div className="flex flex-col w-full">
               <div className="divider"></div>
             </div>
-            <p className="pb-5">First Step to Build Online Presence</p>
-            <ul>
+            <p className="pb-5 dark:text-black">First Step to Build Online Presence</p>
+            <ul className="dark:text-black">
               <li className="pb-5">Free Logo Design</li>
               <li className="pb-5">4-5 Pages Website</li>
               <li className="pb-5">Google Map Integrated</li>
@@ -68,13 +68,13 @@ const Pricing = () => {
 
         <div className="card w-96 bg-base-100 shadow-xl mr-4 mb-5 dark:bg-white">
           <div className="card-body items-center text-center">
-            <h6 className="text-1xl font-bold text-blue-800">Standard Plan</h6>
-            <h2 className="card-title">₹999 /month</h2>
+            <h6 className="text-1xl font-bold text-blue-800 dark:text-black">Standard Plan</h6>
+            <h2 className="card-title dark:text-black">₹999 /month</h2>
             <div className="flex flex-col w-full">
               <div className="divider"></div>
             </div>
-            <p className="pb-5">Upscale your Business with more features</p>
-            <ul className="pb-5">
+            <p className="pb-5 dark:text-black">Upscale your Business with more features</p>
+            <ul className="pb-5 dark:text-black">
               <li className="pb-5">Free Yearly Domain & Hosting</li>
               <li className="pb-5">Quatarly Free Updates</li>
               <li className="pb-5">Free Business Email</li>
@@ -114,13 +114,13 @@ const Pricing = () => {
 
         <div className="card w-96 bg-base-100 shadow-xl mb-5 dark:bg-white">
           <div className="card-body items-center text-center">
-            <h6 className="text-1xl font-bold text-green-400">Premium Plan</h6>
-            <h2 className="card-title">₹1499 /month</h2>
+            <h6 className="text-1xl font-bold text-green-400 dark:text-black">Premium Plan</h6>
+            <h2 className="card-title dark:text-black">₹1499 /month</h2>
             <div className="flex flex-col w-full">
               <div className="divider"></div>
             </div>
-            <p className="pb-5">All Your Needs in One Plan</p>
-            <ul>
+            <p className="pb-5 dark:text-black">All Your Needs in One Plan</p>
+            <ul className="dark:text-black">
               <li className="pb-5">Free Yearly Domain & Hosting</li>
               <li className="pb-5">Monthly Updates</li>
               <li className="pb-5">Free Multiple Business Emails</li>

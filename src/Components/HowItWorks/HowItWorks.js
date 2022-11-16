@@ -13,20 +13,20 @@ const HowItWorks = () => {
           />
         </div>
         <div>
-          <div className="badge badge-accent badge-outline w-40 mb-10 p-4">
+          <div className="badge badge-accent badge-outline w-40 mb-10 p-4 dark:text-black">
             How it Works
           </div>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold dark:text-black">
             The Process - Behind the scenes.
           </h1>
         </div>
       </div>
 
   <ul className="steps">
-  <li className="step step-success text-sm">Share you Concept and Requirments</li>
-  <li className="step step-success text-sm">We'll work on it and share it</li>
-  <li className="step step-success text-sm">After Confirmation, We'll Launch you Site</li>
-  <li className="step step-success text-sm">After Completion, review it and Share your Feeback</li>
+  <li className="step step-success text-sm dark:text-black">Share you Concept and Requirments</li>
+  <li className="step step-success text-sm dark:text-black">We'll work on it and share it</li>
+  <li className="step step-success text-sm dark:text-black">After Confirmation, We'll Launch you Site</li>
+  <li className="step step-success text-sm dark:text-black">After Completion, review it and Share your Feeback</li>
 </ul>
     </div>
   );

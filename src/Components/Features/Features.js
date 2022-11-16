@@ -14,10 +14,10 @@ const Features = () => {
       </div>
        
         <div className="">
-        <div className="badge badge-accent badge-outline p-4 mb-4">Features</div>
-          <h1 className="text-5xl font-bold">EMI Option </h1>
-          <h1 className="text-5xl font-bold">Available Now!</h1>
-          <p className="py-6">
+        <div className="badge badge-accent badge-outline p-4 mb-4 dark:text-black">Features</div>
+          <h1 className="text-5xl font-bold dark:text-black">EMI Option </h1>
+          <h1 className="text-5xl font-bold dark:text-black">Available Now!</h1>
+          <p className="py-6 dark:text-black">
           No need to worry about One Time about 
           <br />
           anymore. Just select EMI Option and Continue 
@@ -25,7 +25,7 @@ const Features = () => {
           Yearly Service on Monthly Payments
           </p>
           
-          <button className="btn btn-ghost">Know More</button>
+          <button className="btn btn-ghost dark:text-black">Know More</button>
 
         </div>
       </div>

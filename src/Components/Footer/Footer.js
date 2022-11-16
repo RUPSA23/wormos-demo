@@ -5,30 +5,30 @@ const Footer = () => {
     <div>
       <footer className="footer p-10 bg-base-200 text-base-content dark:bg-white">
         <div>
-          <span className="footer-title">About</span>
-          <a className="link link-hover">About Hub</a>
-          <a className="link link-hover">Our Partners</a>
-          <a className="link link-hover">Privacy Policy</a>
-          <a className="link link-hover">Terms of Service</a>
+          <span className="footer-title dark:text-black">About</span>
+          <a className="link link-hover dark:text-black">About Hub</a>
+          <a className="link link-hover dark:text-black">Our Partners</a>
+          <a className="link link-hover dark:text-black">Privacy Policy</a>
+          <a className="link link-hover dark:text-black">Terms of Service</a>
         </div>
         <div>
-          <span className="footer-title">Contact</span>
-          <a className="link link-hover">Management</a>
-          <a className="link link-hover">Recording</a>
-          <a className="link link-hover">Tracking</a>
-          <a className="link link-hover">Subscribe</a>
+          <span className="footer-title dark:text-black">Contact</span>
+          <a className="link link-hover dark:text-black">Management</a>
+          <a className="link link-hover dark:text-black">Recording</a>
+          <a className="link link-hover dark:text-black">Tracking</a>
+          <a className="link link-hover dark:text-black">Subscribe</a>
         </div>
         <div>
-          <span className="footer-title">Company</span>
-          <a className="link link-hover">Company</a>
-          <a className="link link-hover">Careers</a>
-          <a className="link link-hover">Press Media</a>
-          <a className="link link-hover">Our Blog</a>
+          <span className="footer-title dark:text-black">Company</span>
+          <a className="link link-hover dark:text-black">Company</a>
+          <a className="link link-hover dark:text-black">Careers</a>
+          <a className="link link-hover dark:text-black">Press Media</a>
+          <a className="link link-hover dark:text-black">Our Blog</a>
         </div>
       </footer>
 
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300 dark:bg-white">
-        <div className="items-center grid-flow-col">
+        <div className="items-center grid-flow-col dark:text-black">
           <p>
             GET THE APP
             <br />
