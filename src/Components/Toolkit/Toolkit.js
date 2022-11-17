@@ -2,7 +2,7 @@ import React from "react";
 
 const Toolkit = () => {
   return (
-    <div className="hero min-h-screen flex flex-col lg:flex-row justify-around md:flex-row m-5 dark:bg-white">
+    <div className="hero max-w-[95%] min-h-screen flex flex-col lg:flex-row justify-around md:flex-row m-5 dark:bg-white">
      <div>
         <p className="py-6 text-2xl font-semibold text-left text-green-800">
           Complete Design Toolkit – huge collection 
@@ -14,8 +14,8 @@ const Toolkit = () => {
           suits your needs.
         </p>
       </div>
+
       <div className="hero-content grid grid-cols-2 lg:grid-cols-3 md:grid-cols-3 gap-3 ">
-    
       <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 font-semibold">
           <img
             src="https://ak.picdn.net/shutterstock/videos/1091005935/thumb/6.jpg?ip=x480"

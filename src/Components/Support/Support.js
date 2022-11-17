@@ -20,7 +20,7 @@ const Support = () => {
             into Customers..
           </p>
 
-          <div className="card w-96 bg-base-100 shadow-xl dark:bg-white">
+          <div className="card w-94 lg:w-96 md:w-96 bg-base-100 shadow-xl dark:bg-white">
             <div className="card-body">
             <div className="flex">
             <div className="avatar">

@@ -22,7 +22,7 @@ const Pricing = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row md:flex-row ml-10 mt-20 ">
-        <div className="card w-96 bg-base-100 shadow-xl mr-4 mb-5 dark:bg-white">
+        <div className="card w-55 lg:w-96 md:w-96 bg-base-100 shadow-xl mr-4 mb-5 dark:bg-white">
           <div className="card-body items-center text-center ">
             <h6 className="text-1xl font-bold text-orange-400 dark:text-black">Simple Plan</h6>
             <h2 className="card-title dark:text-black">₹499 /month</h2>
@@ -66,7 +66,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl mr-4 mb-5 dark:bg-white">
+        <div className="card w-55 lg:w-96 md:w-96 bg-base-100 shadow-xl mr-4 mb-5 dark:bg-white">
           <div className="card-body items-center text-center">
             <h6 className="text-1xl font-bold text-blue-800 dark:text-black">Standard Plan</h6>
             <h2 className="card-title dark:text-black">₹999 /month</h2>
@@ -112,7 +112,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-xl mb-5 dark:bg-white">
+        <div className="card w-55 lg:w-96 md:w-96  bg-base-100 shadow-xl mb-5 dark:bg-white">
           <div className="card-body items-center text-center">
             <h6 className="text-1xl font-bold text-green-400 dark:text-black">Premium Plan</h6>
             <h2 className="card-title dark:text-black">₹1499 /month</h2>
