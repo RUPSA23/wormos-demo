@@ -11,7 +11,7 @@ const Pricing = () => {
             width="290"
           />
         </div>
-        <div className="ml-15 mt-10 dark:text-black">
+        <div className="mt-10 dark:text-black">
           <h1 className="text-5xl font-bold mb-8">
             Simple pricing foreveryone.
           </h1>
